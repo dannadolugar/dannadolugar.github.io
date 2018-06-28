@@ -1,0 +1,151 @@
+body{
+	/*width: 80%;*/
+	background-color: silver;
+	font-family: 'open sans', sans-serif;
+	font-size: 16px;
+/*	box-sizing: border-box;
+	display: flex;*/
+}
+
+/*new grap*/
+#total{
+	width: 80%;
+	margin: auto;
+}
+
+#perfil{
+	width: 23%;
+	height: 23%;
+	border-radius: 180px;
+	display: block;
+	margin:auto;
+	padding: 10px;
+}
+
+#header{
+	background-image: url(../images/wallpaper.jpg);
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+
+#header h1{
+	color: #fff;
+	text-align: center;
+	padding-top: 15px;
+	margin: 2px;
+}
+
+#menu{
+	float: left;
+	width: 25%;
+	height: 9cm;
+	background-color: #9B6464;
+
+	display: flex;
+	flex-flow: column nowrap;
+	justify-content: space-around;
+}
+
+#menu a{
+	/*height: 3em;*/
+	/*text-align: center;*/
+	flex-grow: 1;
+	/*display: block;*/
+	text-align: right;
+	/*padding: 20px;*/
+	padding-top: 25px;
+	padding-right: 20px;
+}
+
+#menu a:hover{
+	background-color: #C37F7F;
+}
+
+#contenido{
+	float: right;
+	width: 75%;
+	background-color: #9BB5C7;
+	height: 9cm;
+	overflow: auto;
+	padding: 0px;
+    padding-left: 20px;
+    box-sizing: border-box;
+}
+
+#Experience h2, #About h2, #Estudios h2, #Conocimientos h2, #Contacto h2{
+	padding-top: 12px; 
+}
+
+#Experience, #About, #Estudios, #Conocimientos, #Contacto{
+	display: block;
+	height: 100%;
+}
+#Experience span, #Estudios span{
+	display: block;
+}
+
+
+#contenido li{
+	display: block;
+}
+
+a:visited, a:link{
+	text-decoration: none;
+	color: #000000;
+}
+
+footer{
+	background-color: #656565;
+	color: #FFFFFF;
+	/*float: left;*/
+	/*width: 100%;*/
+	padding: 10px;
+	display: flex;
+	flex-flow: row nowrap;
+	align-content: space-between;
+}
+
+/*footer p, footer #Redes{
+	padding: 10px;
+}
+*/
+/*footer #Redes{
+	float: right;
+	padding: 12px;
+	color: #FFF;
+}*/
+
+/*footer span{
+	display: block;
+	color: #FFFFFF;
+	text-indent: 12px;
+}
+
+footer a.redes{
+	color: #FFFFFF;
+	padding-bottom: 8px;
+}*/
+
+footer div{
+	width: 50%;
+	flex: 1;
+}
+
+footer #redes{
+	/*width: 50%;*/
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: flex-end;
+}
+
+footer #redes a{
+	/*flex:1;*/
+	align-items: flex-end;
+    width: 80px;
+    height: 30px;
+    line-height: 50px;
+}
+
+footer #redes a:hover{
+	color: #FFF;
+}
